@@ -1,0 +1,20 @@
+{
+  "id": "be31543c-cf86-4233-bb46-9ea881f46505",
+  "name": "Send template email to toaddress@test.com",
+  "form": "fb32dc52-8d3d-49db-8cd7-fffdb1f97fa9",
+  "active": true,
+  "includeSensitiveData": "False",
+  "workflowTypeId": "17c61629-d984-4e86-b43b-a8407b3efea9",
+  "executesOn": "Submitted",
+  "settings": {
+    "RazorViewFilePath": "Forms/Emails/Example-Template.cshtml",
+    "Attachment": "",
+    "Email": "fromaddress@test.com",
+    "CcEmail": "",
+    "BccEmail": "",
+    "SenderEmail": "",
+    "ReplyToEmail": "",
+    "Subject": "The Form '{form_name}' was submitted"
+  },
+  "sortOrder": 1
+}
