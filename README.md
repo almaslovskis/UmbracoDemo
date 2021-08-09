@@ -6,4 +6,4 @@ login almaslovskis@gmail.com
 
 password helloworld
 
-UmbracoDemoDB.db
+UmbracoDemoDB.db or sqlite for easier data access
